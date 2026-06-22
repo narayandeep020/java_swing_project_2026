@@ -20,7 +20,7 @@ public class AddStudent extends JFrame implements ActionListener {
     }
     public void random() {
         Random rd = new Random();
-        t1.setText("" + rd.nextInt(10000 + 1));
+        t1.setText("" + rd.nextInt(1000 + 1));
     }
     public AddStudent(){
         super("Add Student");
@@ -155,6 +155,7 @@ public class AddStudent extends JFrame implements ActionListener {
                     st.setString(5, (String) comboBox.getSelectedItem());
                     st.setString(6, (String) comboBox_1.getSelectedItem());
                     st.setString(7, (String) comboBox_2.getSelectedItem());
+
 
                     int i = st.executeUpdate();
                     if (i > 0) {

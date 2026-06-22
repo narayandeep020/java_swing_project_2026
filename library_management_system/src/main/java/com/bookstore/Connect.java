@@ -12,7 +12,7 @@ public class Connect {
     public Connect() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_management_system_2026","root","Root@123");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_management_system_2026","#####","*******");
             s = c.createStatement();
 
         } catch(Exception e) {
