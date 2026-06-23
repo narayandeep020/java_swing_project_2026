@@ -39,7 +39,7 @@ public class AboutUs extends JFrame {
         l7.setBounds(57, 208, 600, 34);
         contentPane.add(l7);
 
-        JLabel l8 = new JLabel("Telegram : @deepnaraya04");
+        JLabel l8 = new JLabel("Telegram : @deepnarayan04");
         l8.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
         l8.setBounds(99, 241, 600, 34);
         contentPane.add(l8);
